@@ -1,0 +1,15 @@
+{
+  "name": "kdp-first-book-guide",
+  "version": "1.0.0",
+  "description": "A beginner manual (Markdown docs + static HTML site) on publishing a first book with Amazon KDP: manuscript prep, trim size, cover basics, ISBN, pricing, categories, keywords, upload steps, and proofing. By Dylan Asdale of Asdale Dynamics, LLC.",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.js",
+    "test": "node tests/build-test.js",
+    "lint": "node -c build.js && node -c tests/build-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  }
+}
